@@ -1,0 +1,7 @@
+CREATE TABLE Puestos (
+    IdPuesto INT IDENTITY(1,1) PRIMARY KEY,
+    NombrePuesto VARCHAR(100) NOT NULL,
+    Activo BIT DEFAULT 1,
+    FechaCreacion DATETIME DEFAULT GETDATE(),
+    FechaModificacion DATETIME DEFAULT GETDATE()
+); 
