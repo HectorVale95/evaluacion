@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@swimlane/ngx-charts": "^22.0.0-alpha.1",
+    "bootstrap-icons": "^1.11.3",
+    "chart.js": "^4.4.9",
+    "devextreme": "^24.2.6",
+    "devextreme-angular": "^24.2.6"
+  },
+  "devDependencies": {
+    "@types/chart.js": "^2.9.41"
+  }
+}
